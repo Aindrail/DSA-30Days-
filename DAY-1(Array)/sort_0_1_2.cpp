@@ -70,3 +70,6 @@ int main() {
 }
 
   // } Driver Code Ends
+
+//   Q link :- https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
+//   Approach :- use dutch flag algo. mid=0, low=0, high=n-1 while(mid>=high)

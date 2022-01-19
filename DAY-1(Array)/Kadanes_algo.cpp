@@ -18,7 +18,7 @@ class Solution{
             // maxI=max(arr[i],maxI);
             sum+=arr[i];
             // arr[i]=sum;
-            
+        
             ans= max(ans,sum);
             if(sum<0){
                 sum=0;
@@ -55,4 +55,4 @@ int main()
     }
 }
   // } Driver Code Ends
-  
+// Q link :- https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
