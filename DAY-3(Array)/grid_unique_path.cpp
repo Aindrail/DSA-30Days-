@@ -17,6 +17,7 @@ int main()
     Solution obj;
     int totalCount= obj.uniquePaths(2,3);
     cout<<"The total number of Unique Paths are "<<totalCount<<endl;
+    return 0;
 }
 
 //qlink :- https://leetcode.com/problems/unique-paths/
