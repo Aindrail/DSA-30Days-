@@ -158,4 +158,4 @@ Node *flatten(Node *root)
 
 // Space Complexity: O(1)
 
-// Reason: We ar not creating new nodes or using any other data structure.
+// Reason: We are not creating new nodes or using any other data structure.
