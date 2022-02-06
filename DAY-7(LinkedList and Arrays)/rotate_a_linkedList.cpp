@@ -19,4 +19,4 @@ temp=temp->next;
 };
 //Qlink :- https://leetcode.com/problems/rotate-list/description/
 //Approach :- convert to circular lll and find the length then iterate len-k+1 and make next as head and ->next as head.
-//TC :- O(n)+O(n-(n%k)) 
+//TC :- O(n)+O(n-(n%k))  SC :- O(n)
