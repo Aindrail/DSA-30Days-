@@ -61,7 +61,7 @@ int main()
 	while(t--){
 	    //size of array and weight
 		int n, W;
-		cin>>n>>W;
+		cin>>n>>W; 
 		
 		Item arr[n];
 		//value and weight of each item
@@ -74,4 +74,5 @@ int main()
 		cout<<ob.fractionalKnapsack(W, arr, n)<<endl;
 	}
     return 0;
-}  // } Driver Code Ends
+}  
+// } Driver Code Ends
