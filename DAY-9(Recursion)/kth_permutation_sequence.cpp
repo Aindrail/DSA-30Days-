@@ -41,3 +41,11 @@ int main() {
 
   return 0;
 }
+
+// Time complexity: O(N! * N) +O(N! Log N!)
+
+// Reason:  The recursion takes O(N!)  time because we generate every possible permutation and another O(N)  time is required to make a deep copy and store every sequence in the data structure. Also, O(N! Log N!)  time required to sort the data structure
+
+// Space complexity: O(N) 
+
+// Reason: Result stored in a vector, we are auxiliary space taken by recursion
