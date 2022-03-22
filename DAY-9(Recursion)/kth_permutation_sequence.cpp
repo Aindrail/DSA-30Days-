@@ -33,14 +33,14 @@ class Solution {
   }
 };
 
-int main() {
-  int n = 3, k = 3;
-  Solution obj;
-  string ans = obj.getPermutation(n, k);
-  cout << "The Kth permutation sequence is " << ans << endl;
+// int main() {
+//   int n = 3, k = 3;
+//   Solution obj;
+//   string ans = obj.getPermutation(n, k);
+//   cout << "The Kth permutation sequence is " << ans << endl;
 
-  return 0;
-}
+//   return 0;
+// }
 
 // Time complexity: O(N! * N) +O(N! Log N!)
 
