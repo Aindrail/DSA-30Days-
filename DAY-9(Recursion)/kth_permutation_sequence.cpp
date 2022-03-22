@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
   public:
-    function to generate all possible permutations of a string
+    // function to generate all possible permutations of a string
     void solve(string & s, int index, vector < string > & res) {
       if (index == s.size()) {
         res.push_back(s);
