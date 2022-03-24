@@ -36,4 +36,4 @@ int main() {
 
 //Qlink :- leetcode.com/problems/permutations/
 
-//Approach :- Swap  recurse  unswap . take a for loop that goes from 
+//Approach :- Swap  recurse  unswap . take a for loop that goes from index to size. recurse return index+1 and swap nums[ind] and num[i]
