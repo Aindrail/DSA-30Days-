@@ -34,3 +34,6 @@ int main() {
   }
 }
 
+//Qlink :- leetcode.com/problems/permutations/
+
+//Approach :- Swap  recurse  unswap . take a for loop that goes from 
