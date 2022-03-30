@@ -3,36 +3,36 @@
 using namespace std;
 class Solution {
   public:
-    // bool isSafe1(int row, int col, vector < string > board, int n) {
-    //   // check upper element
-    //   int duprow = row;
-    //   int dupcol = col;
+    bool isSafe1(int row, int col, vector < string > board, int n) {
+      // check upper element
+      int duprow = row;
+      int dupcol = col;
 
-    //   while (row >= 0 && col >= 0) {
-    //     if (board[row][col] == 'Q')
-    //       return false;
-    //     row--;
-    //     col--;
-    //   }
+      while (row >= 0 && col >= 0) {
+        if (board[row][col] == 'Q')
+          return false;
+        row--;
+        col--;
+      }
 
-    //   col = dupcol;
-    //   row = duprow;
-    //   while (col >= 0) {
-    //     if (board[row][col] == 'Q')
-    //       return false;
-    //     col--;
-    //   }
+      col = dupcol;
+      row = duprow;
+      while (col >= 0) {
+        if (board[row][col] == 'Q')
+          return false;
+        col--;
+      }
 
-    //   row = duprow;
-    //   col = dupcol;
-    //   while (row < n && col >= 0) {
-    //     if (board[row][col] == 'Q')
-    //       return false;
-    //     row++;
-    //     col--;
-    //   }
-    //   return true;
-    // }
+      row = duprow;
+      col = dupcol;
+      while (row < n && col >= 0) {
+        if (board[row][col] == 'Q')
+          return false;
+        row++;
+        col--;
+      }
+      return true;
+    }
 
   public:
     void solve(int col, vector < string > & board, vector < vector < string >> & ans, int n) {
