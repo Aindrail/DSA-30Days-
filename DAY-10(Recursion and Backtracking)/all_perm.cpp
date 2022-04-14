@@ -22,17 +22,17 @@ class Solution {
     }
 };
 
-int main() {
-  Solution obj;
-  vector < int > v {1,2,3};
-  vector < vector < int >> sum = obj.permute(v);
-  cout << "All Permutations are" << endl;
-  for (int i = 0; i < sum.size(); i++) {
-    for (int j = 0; j < sum[i].size(); j++)
-      cout << sum[i][j] << " ";
-    cout << endl;
-  }
-}
+// int main() {
+//   Solution obj;
+//   vector < int > v {1,2,3};
+//   vector < vector < int >> sum = obj.permute(v);
+//   cout << "All Permutations are" << endl;
+//   for (int i = 0; i < sum.size(); i++) {
+//     for (int j = 0; j < sum[i].size(); j++)
+//       cout << sum[i][j] << " ";
+//     cout << endl;
+//   }
+// }
 
 // Qlink :- leetcode.com/problems/permutations/
 
