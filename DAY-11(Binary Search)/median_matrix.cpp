@@ -16,6 +16,7 @@ int solve(vector<int> &row, int mid)
     }
   }
   return l;
+
 }
 
 
@@ -39,3 +40,4 @@ int Solution::findMedian(vector<vector<int> > &A) {
     }
     return l;
 }
+
