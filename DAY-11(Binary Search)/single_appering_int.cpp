@@ -30,4 +30,5 @@ public:
         
     }
 };
-//TC :- O(logN)
+
+//Time Complexcity :- O(logN)
