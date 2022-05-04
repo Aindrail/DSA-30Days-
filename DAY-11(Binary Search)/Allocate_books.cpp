@@ -41,4 +41,6 @@ int Solution::books(vector<int> &A, int B) {
    }
    return l;
 }
-   
+
+//TC :- O(N log N) 
+//SC :- O(1)   
