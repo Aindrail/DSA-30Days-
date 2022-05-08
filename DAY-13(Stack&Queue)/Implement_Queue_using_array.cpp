@@ -55,3 +55,4 @@ class Queue {
   }
 
 };
+//TC: O(1)
