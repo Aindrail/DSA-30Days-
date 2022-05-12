@@ -6,13 +6,14 @@ public:
         if(A == B) return 1;
         int count = 1;
         string source = A;
+        //add A to surce till the size is not grater than B
         while(source.size() < B.size()){
             count++;
             source+=A;
         }
-        if(source == B) return count;
-        if(Rabin_Karp(source,B) != -1) return count;
-        if(Rabin_Karp(source+A,B) != -1) return count+1;
+        if(source == B) return count; //if equal return count
+        if(Rabin_Karp(source,B) != -1) return count; // when it is incomplite in either one side only {A= ab B=babababababab  // here source will be ababababababab(7times ab) and count ==7 or a=abababababa here source is ab(6 times) and it will hence check if it is B is a substring of source if yes return count
+        if(Rabin_Karp(source+A,B) != -1) return count+1; // when it has 2 sides incomplete if A = abc B= cabcabcab //here B has size equal to B so it will check if it is a sub and if yes then count ahs to be incremented by 1 
         return -1;
     }
     int Rabin_Karp(string source, string target){
