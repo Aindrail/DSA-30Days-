@@ -1,0 +1,8 @@
+/* 
+Minimum Characters required to make a String Palindromic
+
+
+Given an string A. The only operation allowed is to insert  characters in the beginning of the string.
+
+Find how many minimum characters are needed to be inserted to make the string a palindrome string.
+*/
